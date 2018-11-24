@@ -1,4 +1,14 @@
-.profile-image {
+.header__profile-image {
   width: 125px;
   border-radius: 50%;
+}
+
+.projects__background {
+  width: 400px;
+  height: 300px;
+}
+
+.featured-work__image {
+  width: 400px;
+  height: 300px;
 }
