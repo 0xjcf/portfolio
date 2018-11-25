@@ -1,13 +1,14 @@
 body {
-  background: rgb(56, 102, 121);
+  background: rgba(56, 102, 121, 0.701);
   width: 100%;
+  font-family: "Work Sans", "Helvetica Neue", Arial, Helvetica, sans-serif;
 }
 
 footer {
   background: #fff;
 }
 
-.contact a{
+.contact a {
   text-decoration: none;
   color: black;
 }
