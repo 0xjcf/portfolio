@@ -1,0 +1,14 @@
+@media screen and (max-width: 450px){
+/* header */
+  .header {
+    display: none;
+  }
+
+  .about {
+    width: 450px;
+  }
+
+  .about__background {
+    width: 100%;
+  }
+}
