@@ -1,13 +1,9 @@
 .header {
   display: flex;
+  width: 100%;
 }
 
 .header__image {
   width: 125px;
   border-radius: 50%;
-}
-
-.featured-work__image {
-  width: 400px;
-  height: 300px;
 }
