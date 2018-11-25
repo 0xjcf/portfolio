@@ -4,8 +4,12 @@ body {
   font-family: "Work Sans", "Helvetica Neue", Arial, Helvetica, sans-serif;
 }
 
+.header {
+  background: #f2f2f2;
+}
+
 footer {
-  background: #fff;
+  background: #f2f2f2;
 }
 
 .contact a {
