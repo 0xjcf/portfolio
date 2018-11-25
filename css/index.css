@@ -1,4 +1,8 @@
-.header__profile-image {
+.header {
+  display: flex;
+}
+
+.header__image {
   width: 125px;
   border-radius: 50%;
 }

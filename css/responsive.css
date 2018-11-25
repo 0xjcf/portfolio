@@ -1,14 +1,19 @@
-@media screen and (max-width: 450px){
-/* header */
+@media screen and (max-width: 450px) {
   .header {
-    display: none;
+    padding: 20px;
+    flex-flow: column;
+    align-items: center;
+  }
+
+  .header__image {
+    margin: 5px;
+  }
+
+  .header__info {
+    margin: 5px;
   }
 
   .about {
-    width: 450px;
-  }
-
-  .about__background {
-    width: 100%;
+    display: none;
   }
 }
