@@ -3,6 +3,13 @@
     flex-flow: column wrap;
   }
 
+  article {
+    z-index: -1;
+    position: relative;
+    top: 50px;
+    padding: 20px 30px;
+  }
+
   /* header */
   .header {
     height: 50px;
@@ -20,11 +27,13 @@
     width: 100%;
     display: flex;
     flex-direction: row;
+    align-items: center;
     justify-content: space-between;
   }
 
   .nav-brand {
     width: 150px;
+    padding: 20px;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -39,11 +48,12 @@
 
   .navbar-right li {
     list-style: none;
+    padding: 20px;
   }
 
   /* about */
-  .about {
-    display: none;
+  .about__background {
+    width: 100%;
   }
 
   /* featured work */
@@ -56,6 +66,7 @@
 
   .featured-work a {
     height: 300px;
+    margin: 15px 0;
   }
 
   .featured-work__image {
@@ -68,6 +79,8 @@
     display: flex;
     flex-flow: row;
     justify-content: space-evenly;
+    position: relative;
+    bottom: -50px;
   }
 
   .contact a {
