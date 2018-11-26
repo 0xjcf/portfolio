@@ -53,6 +53,18 @@ article {
   text-align: center;
 }
 
+.about-caption h1 {
+  font-size: 3.75rem;
+  line-height: 1;
+  font-weight: 100;
+  margin: 0 0 10px;
+}
+
+.about-caption p {
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+
 .featured-work {
   width: 100%;
   display: flex;
