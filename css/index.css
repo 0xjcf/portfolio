@@ -8,7 +8,8 @@ h2,
 h3,
 h4,
 h5,
-p {
+p,
+li {
   font-family: "Work Sans", "Helvetica Neue", Arial, Helvetica, sans-serif;
 }
 
