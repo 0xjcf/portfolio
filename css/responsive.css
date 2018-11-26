@@ -1,6 +1,5 @@
 @media screen and (min-width: 901px) {
   body {
-    background: #f2f2f2;
     display: flex;
     flex-flow: column;
   }
@@ -24,12 +23,12 @@
     align-items: flex-end;
     justify-content: center;
     margin-right: 40px;
-    font-size: 60px;
+    font-size: 70px;
   }
 
   .nav-brand h2 {
     display: block;
-    font-size: 20px;
+    font-size: 25px;
   }
 
   .navbar-right {
@@ -37,7 +36,7 @@
   }
 
   article {
-    margin-top: 30px;
+    margin: 30px 0;
     width: 95%;
     align-self: center;
   }
@@ -48,6 +47,7 @@
 
   .featured-work {
     flex-flow: row wrap;
+    justify-content: space-between;
   }
 
   .featured-work__header {
@@ -56,16 +56,18 @@
     height: 60px;
     justify-content: center;
     align-items: center;
+    font-size: 30px;
   }
 
   .featured-work a:nth-last-child(-n+3) {
-    width: 33.33%;
-    height: 210px
+    width: 30%;
+    height: 40%;
+    height: 210px;
   }
 
   .featured-work a:first-child {
     width: 100%;
-    height: 480px;
+    height: 60%;
   }
 
   .featured-work__image {
