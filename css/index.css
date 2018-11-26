@@ -25,7 +25,7 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  font-size: 20px;
+  font-size: 25px;
 }
 
 .navbar-right {
@@ -33,7 +33,7 @@ body {
   flex-direction: row;
   justify-content: space-evenly;
   width: 200px;
-  font-size: 20px;
+  font-size: 25px;
 }
 
 .navbar-right li {

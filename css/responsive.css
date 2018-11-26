@@ -1,16 +1,20 @@
 @media screen and (min-width: 601px) and (max-width: 768px) {
   header {
-    height: 60px;
+    height: 70px;
   }
 
   .nav-brand {
     font-size: 25px;
-    width: 275px;
+    width: 200px;
   }
 
   .navbar-right {
-    width: 275px;;
+    width: 225px;;
     font-size: 25px;
+  }
+
+  article {
+    top: 70px;
   }
 }
 
@@ -32,6 +36,10 @@
   .nav-brand {
     width: 150px;
     padding: 20px;
+  }
+
+  .navbar-right {
+    margin-right: 10px; 
   }
 
   .navbar-right li {
@@ -87,7 +95,7 @@
 @media screen and (max-width: 390px) {
   .header {
     display: flex;
-    height: 200px;
+    height: 210px;
     align-items: flex-start;
   }
 
@@ -100,9 +108,13 @@
     align-items: center;
   }
 
+  .navbar-right li {
+    border-top: 1px solid black;
+  }
+
   article {
     padding-top: 30px;
-    top: 200px;
+    top: 210px;
   }
 
   .about {
