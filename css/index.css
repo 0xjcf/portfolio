@@ -9,7 +9,6 @@ body {
   display: flex;
   flex-flow: wrap;
   align-content: center;
-  position: fixed;
   top: 0;
 }
 
@@ -70,7 +69,12 @@ img {
   width: 100%;
 }
 
-footer {
+.contact {
+  width: 100%;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-evenly;
+  position: relative;
   background: #f2f2f2;
 }
 
