@@ -6,7 +6,7 @@
 
   .header {
     height: 150px;
-    justify-content: flex-end;
+    justify-content: space-between;
   }
 
   .navbar {
@@ -14,6 +14,13 @@
     align-items: flex-start;
     border-bottom: 2px solid #000;
     width: 75%;
+  }
+
+  .navbar-logo {
+    object-fit: cover;
+    object-position: -75% 0%;
+    align-self: center;
+    margin-left: 2%;
   }
 
   .nav-brand {
@@ -121,6 +128,10 @@
     width: 200px;
   }
 
+  .navbar-logo {
+    display: none;
+  }
+
   .navbar-right {
     width: 225px;
     font-size: 25px;
@@ -192,6 +203,10 @@
   .nav-brand {
     width: 175px;
     padding: 10px;
+  }
+
+  .navbar-logo {
+    display: none;
   }
 
   .navbar-right {
