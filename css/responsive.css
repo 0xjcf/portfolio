@@ -40,7 +40,7 @@
     display: none;
   }
 
-  article {
+  main {
     margin: 30px 0;
     width: 95%;
     align-self: center;
@@ -126,7 +126,7 @@
     font-size: 25px;
   }
 
-  article {
+  main {
     top: 0px;
     display: flex;
     flex-flow: column;
@@ -178,7 +178,7 @@
     flex-flow: column wrap;
   }
 
-  article {
+  main {
     top: 70px;
   }
 
@@ -252,7 +252,7 @@
     border-top: 1px solid black;
   }
 
-  article {
+  main {
     padding-top: 30px;
     top: 210px;
   }
@@ -273,7 +273,7 @@
 @media screen and (min-width: 1px) and (max-width: 350px) {
   .contact,
   .header,
-  article {
+  main {
     width: 350px;
   }
 }

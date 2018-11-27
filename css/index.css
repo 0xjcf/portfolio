@@ -55,7 +55,7 @@ li {
   list-style: none;
 }
 
-article {
+main {
   width: 100%;
   z-index: -1;
   position: relative;
@@ -68,7 +68,7 @@ article {
   text-align: center;
 }
 
-.about-caption h1 {
+.about-caption h2 {
   font-size: 3.75rem;
   font-weight: 300;
   line-height: 1;
