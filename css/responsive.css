@@ -251,7 +251,8 @@
 @media screen and (max-width: 390px) {
   .header {
     position: fixed;
-    height: 210px;
+    /* height: 210px; */
+    height: auto;
     align-items: flex-start;
   }
 
@@ -269,17 +270,18 @@
   }
 
   main {
-    padding-top: 30px;
-    top: 210px;
+    padding-top: 20px;
+    /* padding-top: 30px; */
+    /* top: 210px; */
   }
 
   .about {
     display: none;
   }
 
-  .contact {
+  /* .contact {
     bottom: -210px;
-  }
+  } */
 
   /* overlay */
   .container {
