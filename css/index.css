@@ -26,6 +26,7 @@ li {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
+  z-index: 1;
 }
 
 .nav-brand h2 {
@@ -39,6 +40,7 @@ li {
   font-size: 25px;
   text-decoration: none;
   color: #000;
+  top: 0;
 }
 
 .navbar-logo {
@@ -58,7 +60,7 @@ li {
   list-style: none;
 }
 
-main {
+div {
   width: 100%;
   z-index: -1;
   position: relative;
