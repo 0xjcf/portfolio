@@ -105,6 +105,10 @@
     width: 95%;
     height: 60%;
   }
+
+  .main-img .text {
+    font-size: 4rem;
+  }
 }
 
 @media screen and (min-width: 636px) and (max-width: 900px) {
