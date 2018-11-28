@@ -48,11 +48,9 @@
   }
 
   main {
-    margin: 30px 0;
-    width: 95%;
     align-self: center;
     display: flex;
-    flex-flow: column wrap;
+    flex-flow: row wrap;
   }
 
   .about {
@@ -82,7 +80,7 @@
 
   .featured-work {
     flex-flow: row wrap;
-    justify-content: space-between;
+    justify-content: space-evenly;
     margin: 30px 0;
   }
 
@@ -96,14 +94,14 @@
     font-weight: 300;
   }
 
-  .featured-work a:nth-last-child(-n + 3) {
+  .featured-work div:nth-last-child(-n + 3) {
     width: 30%;
     height: 40%;
     height: 210px;
   }
 
-  .featured-work a:first-child {
-    width: 100%;
+  .featured-work div:first-child {
+    width: 95%;
     height: 60%;
   }
 
@@ -113,8 +111,8 @@
   }
 
   /* overlay */
-  .container:hover .overlay {
-    border-radius: 20px;
+  .container {
+    margin: 0;
   }
 }
 
