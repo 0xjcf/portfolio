@@ -19,8 +19,8 @@
   .navbar-logo {
     object-fit: cover;
     object-position: -75% 0%;
-    align-self: center;
-    margin-left: 2%;
+    width: 175px;
+    margin-left: 20px;
   }
 
   .nav-brand {
@@ -56,13 +56,14 @@
   .about {
     display: flex;
     width: 100%;
-    order: 0;
+    margin: 30px;
   }
 
   .about-caption {
     position: relative;
-    text-align: left;
+    text-align: center;
     padding: 0;
+    width: 100%;
   }
 
   .about-caption h1 {
@@ -90,17 +91,6 @@
     font-weight: 300;
   }
 
-  .featured-work div:nth-last-child(-n + 3) {
-    width: 30%;
-    height: 40%;
-    height: 210px;
-  }
-
-  .featured-work div:first-child {
-    width: 95%;
-    height: 60%;
-  }
-
   .contact {
     height: 100px;
     align-items: center;
@@ -109,6 +99,11 @@
   /* overlay */
   .container {
     margin: 0;
+  }
+
+  .overlay {
+    width: auto;
+    height: auto;
   }
 }
 
@@ -265,5 +260,6 @@
 
   .about-caption p {
     font-weight: 300;
+    width: 100%;
   }
 }
