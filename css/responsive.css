@@ -118,15 +118,14 @@
   }
 }
 
-@media screen and (min-width: 701px) and (max-width: 900px) {
+@media screen and (min-width: 636px) and (max-width: 900px) {
   header {
     position: relative;
-    height: 70px;
   }
 
   .nav-brand {
     font-size: 25px;
-    width: 200px;
+    width: 100%;
   }
 
   .navbar-logo {
@@ -177,15 +176,15 @@
   }
 
   .contact {
-    position: relative;
-    bottom: -70px;
+    position: absolute;
+    bottom: 0;
     height: 70px;
     justify-content: space-evenly;
     align-items: center;
   }
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 635px) {
   main {
     flex-flow: column wrap;
   }
@@ -196,13 +195,12 @@
 
   /* header */
   .header {
-    height: 70px;
     position: fixed;
   }
 
   /* navbar */
   .nav-brand {
-    width: 175px;
+    width: 100%;
     padding: 10px;
   }
 
@@ -240,20 +238,12 @@
   .contact a {
     padding: 40px;
   }
-  
-  /* overlay */
-  .container {
-    display: flex;
-    align-items: center;
-  }
 }
 
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 391px) {
   .header {
     position: fixed;
     /* height: 210px; */
-    height: auto;
-    align-items: flex-start;
   }
 
   .navbar {
@@ -282,20 +272,17 @@
   /* .contact {
     bottom: -210px;
   } */
-
-  /* overlay */
-  .container {
-    margin: 0 20px 20px;
-    width: 320px;
-    height: 250px;
-  }
 }
 
-@media screen and (min-width: 1px) and (max-width: 350px) {
+@media screen and (min-width: 1px) and (max-width: 390px) {
   .contact,
-  .header,
+  .header {
+    width: 390px;
+  }
+
   main {
     width: 350px;
+    margin-left: 20px;
   }
 
   .container {
