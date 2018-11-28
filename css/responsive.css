@@ -5,7 +5,7 @@
   }
 
   .header {
-    height: 150px;
+    height: 140px;
     justify-content: space-between;
   }
 
@@ -20,7 +20,7 @@
     object-fit: cover;
     object-position: -75% 0%;
     width: 175px;
-    margin-left: 20px;
+    margin-left: 2%;
   }
 
   .nav-brand {
@@ -96,14 +96,14 @@
     align-items: center;
   }
 
-  /* overlay */
   .container {
     margin: 0;
+    width: 30%;
   }
 
-  .overlay {
-    width: auto;
-    height: auto;
+  .main-img {
+    width: 95%;
+    height: 60%;
   }
 }
 
@@ -113,7 +113,7 @@
   }
 
   .nav-brand {
-    font-size: 25px;
+    font-size: 2rem;
     width: 100%;
   }
 
