@@ -105,6 +105,11 @@
     height: 60%;
   }
 
+  .main-img .project-link {
+    font-size: 2em;
+    margin-top: 10%;
+  }
+
   .main-img .text {
     font-size: 4rem;
   }

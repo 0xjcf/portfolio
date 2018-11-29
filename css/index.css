@@ -103,6 +103,14 @@ img {
   width: 100%;
 }
 
+.project-link {
+  display: flex;
+  justify-content: center;
+  margin-top: 15%;
+  color: white;
+  text-decoration: none;
+}
+
 .contact {
   width: 100%;
   display: flex;
@@ -158,4 +166,5 @@ img {
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   text-align: center;
+  margin: 20px 0;
 }
