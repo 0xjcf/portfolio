@@ -23,10 +23,9 @@
   }
 
   .navbar-logo {
-    object-fit: cover;
-    object-position: -75% 0%;
+    object-fit: contain;
     width: 175px;
-    margin-left: 2%;
+    margin: 2%;
   }
 
   .nav-brand {
